@@ -1,0 +1,17 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "my first electron app",
+  "type": "module",
+  "main": "index.cjs",
+  "module": "main.mjs",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "lukas stroomer",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^26.2.0",
+    "esm": "^3.2.25"
+  }
+}
